@@ -1,36 +1,100 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
-    <title>CV</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li>Om mig</li>
-                <li>Om mig</li>
-                <li>Om mig</li>
-                <li>Om mig</li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Nils</title>
 
-    <main>
-        <section>
-            <h2>Neger</h2>
-            <p>I like thinys with thinys in them by eating thingys i like thingys</p>
-        </section>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
 
-        <section>
-            <h2>utbildning</h2>
+    <body>
+        <header class="nav-header">
+            <nav>
+                <ul class="nav-ul">
+                    <li><a href="#about-us">Om oss</a></li>
+                    <li><a href="#menu">Meny</a></li>
+                    <li><a href="#opening-times">Öppetider</a></li>
+                    <li><a href="#find-us">Hitta Hit</a></li>
+                    <li><a href="#find-us">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            <article>
-                <header>
-                    <h
-                </header>
-            </article>
-        </section>
-    </main>
-</body>
+        <main>
+            <section class="about-us" id="about-us">
+                <ul class="title01">
+                <h1>Café Mysigt</h1>
+                </ul>
+                <h2 class="title">Om oss</h2>
+                <p>Välkommen till Café Mysigt - stadens mysigaste plats för kaffe och fika! Vi har serverat färskbryggd kaffe och hembakade bullar sedan 1995. Hos oss hittar du alltid en varm atmosfär och vänlig service. </p>
+            </section>
+
+            <section class="menu" id="menu">
+                <h2>Vår Meny</h2>
+
+                <article>
+                    <header>
+                    <h4>Drycker</h4>
+                    <p>Alla våra drycker bryggs med kärlek</p>
+                    <p>Vi erbjuder ett brett utbud av drycker för alla smaker och tillfällen. </p>
+                    </header>
+
+                    <ol>
+                        <li>Kaffe - 35 kr</li>
+                        <li>Cappuccino - 45 kr</li>
+                        <li>Te (olika sorter) - 30 kr</li>
+                        <li>Varm choklad - 40 kr</li>
+                    </ol>
+                </article>
+            </section>
+
+            <hr>
+
+            <section class="menu-02" id="menu-02">
+                <h2>Färskt från bageriet</h2>
+
+                <article>
+                    <header>
+                        <h4>Bakverk</h4>
+                        <p><strong>Bakat färskt varje dag</strong> Serveras från kl. 07:00</p>
+                        <p>Alla våra bakverk bakas på plats varje morgon med naturliga ingredienser och traditionella recept. </p>
+                    </header>
+
+                    <ol>
+                        <li>Kanelbullar - 25 kr/st</li>
+                        <li>Chokladcroissant - 35 kr/st</li>
+                        <li>Blåbärsmuffins - 30 kr/st</li>
+                        <li>Smörgås med pålägg - 55 kr/st</li>
+                    </ol>
+                </article>
+            </section>
+
+            <hr>
+
+            <section class="opening-times" id="opening-times">
+                <h2>Öppetider</h2>
+
+                <article>
+                    <header>
+                        <h4>Veckoschema</h4>
+                    </header>
+                    <ul>
+                        <li><strong>Måndag-Fredag</strong>: 07:00 - 18:00</li>
+                        <li><strong>Lördag</strong>: 08:00 - 16:00</li>
+                        <li><strong>Söndag</strong>: 09:00 - 15:00</li>
+                    </ul>
+
+                    <p>Vi är öppna alla dagar året runt förutom midsommar, julafton och nyårsafton. Kom och njut av en lugn stund hos oss! </p>
+                </article>
+            </section>
+        </main>
+
+        <footer class="find-us" id="find-us">
+            <p class="title">HITTA HIT</p>
+            <p>Storgatan 42, 123 45 Stockholm</p>
+            <a href="tel:081234567">08-123 45 67</a>
+            <a href="mailto:info@cafemysigt.se">info@cafemysigt.se</a>
+        </footer>
+    </body>
+</html>

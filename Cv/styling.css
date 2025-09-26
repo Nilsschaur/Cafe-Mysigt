@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+.nav-header {
+    background-color:#8b4513;
+    padding: 16px;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: space-evenly;
+    max-width: 700px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: arial, helvetica, sans-serif;
+}
+a:hover{
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    color: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    transition: all 0.2s ease-in-out;
+    color: #ecd609;
+    text-decoration: underline;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    background-color: #f5e6d3;
+}
+
+.about-us {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f5e6d3;
+    padding: 4rem;
+    margin: auto;
+}
+
+.title{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.title01 {
+    color: #8b4513;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #e8d5b7;
+    padding: 4rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+ol {
+    list-style: none;
+    line-height: 1.2rem;
+}
+
+.p-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-02 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #f5e6d3;
+    padding: 4rem;
+}
+
+.opening-times {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #e8d5b7;
+    padding: 4rem;
+}
+
+.tech-stack-ul{
+    padding: 16px 14px;
+}
+
+footer {
+    background-color: #8b4513;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
