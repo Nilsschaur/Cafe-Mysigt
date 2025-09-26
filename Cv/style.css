@@ -52,14 +52,15 @@ main{
 .title{
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #8b4513;
 }
 
 .title01 {
-    color: #8b4513;
+    color: #e8d5b7;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .menu {
@@ -83,10 +84,6 @@ article {
     gap: 4px;
 }
 
-ol {
-    list-style: none;
-    line-height: 1.2rem;
-}
 
 .p-header {
     display: flex;
@@ -122,4 +119,35 @@ footer {
     flex-direction: column;
     gap: 16px;
     align-items: center;
+}
+
+.footer-text-01 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-text-02 {
+    color: white;
+    font: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.classic-title {
+    color: #8b4513;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.small {
+    color: #8b4513;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.35rem;
+}
+
+.normal {
+    gap: 16rem;
+}
+
+
 }
