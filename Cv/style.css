@@ -20,7 +20,7 @@
 a {
     text-decoration: none;
     color: #fff;
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 a:hover{
     transition: all 0.5s ease-in-out;
@@ -46,8 +46,15 @@ main{
     gap: 16px;
     background-color: #f5e6d3;
     padding: 4rem;
-    margin: auto;
+    margin:auto;
 }
+
+.test {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+
 
 .title{
     margin: auto;
@@ -57,8 +64,33 @@ main{
 }
 
 .title01 {
-    color: #e8d5b7;
+    color: #754100;
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+
+.nils {
+    color:#ac6431;
+    font-family: bold, georgia;
+    font-size: 1rem;
+}
+
+.listing {
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+
+.tall { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+.classic-title {
+    color: #8b4513;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
 }
@@ -70,6 +102,7 @@ main{
     gap: 8px;
     background-color: #e8d5b7;
     padding: 4rem;
+    border-bottom: 2px solid #754100;
 }
 
 article {
@@ -97,6 +130,7 @@ article {
     gap: 8px;
     background-color: #f5e6d3;
     padding: 4rem;
+    border-bottom: 2px solid #754100;
 }
 
 .opening-times {
@@ -106,6 +140,10 @@ article {
     gap: 8px;
     background-color: #e8d5b7;
     padding: 4rem;
+}
+
+.sching {
+    padding: 0.5rem;
 }
 
 .tech-stack-ul{
@@ -147,7 +185,4 @@ footer {
 
 .normal {
     gap: 16rem;
-}
-
-
 }
